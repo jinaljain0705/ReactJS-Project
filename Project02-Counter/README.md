@@ -101,7 +101,7 @@ Add custom step increment
 
 # ScreenShot
 
-![Counter]()
+![Counter](Project02-Counter/Output/Screenshot 2025-11-27 091828.png)
 
 # 💙 Created By
 
