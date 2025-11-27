@@ -1,16 +1,106 @@
-# React + Vite
+# 🧮 Simple Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight and user-friendly counter application built using React.js, featuring increment, decrement, and reset functionality. This project demonstrates the use of useState, component structure, props, and clean UI handling in React.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Increment Count
 
-## React Compiler
+➖ Decrement Count
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔁 Reset Count
 
-## Expanding the ESLint configuration
+🔍 Dynamic message based on count value
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Simple & clean UI
+
+⚛️ Built using React Functional Components + Hooks
+
+# 📂 Project Structure
+```
+src/
+ ├── App.jsx
+ ├── App.css
+ └── assets/
+      └── components/
+           └── counter.jsx
+```
+
+# 📦 Technologies Used
+
+React.js
+
+Vite (Fast Development Server)
+
+JavaScript (ES6+)
+
+CSS
+
+# 📘 How It Works
+  # 🧠 useState Hook
+
+The counter value is managed using:
+
+const [count, setCount] = useState(0);
+
+# 📊 Dynamic Message
+
+Depending on count:
+
+If count > 0 → "Count is increasing"
+
+If count < 0 → "Count is negative"
+
+If count === 0 → "Count is back to zero"
+
+# 🎛 Buttons
+
+Increment → setCount(count + 1)
+
+Decrement → setCount(count - 1)
+
+Reset → setCount(0)
+
+# ▶️ How to Run the Project
+  # 1️⃣ Install Dependencies
+  ```
+npm install
+```
+# 2️⃣ Run Development Server
+```
+npm run dev
+```
+
+# 3️⃣ Open in Browser
+
+Vite will show a local URL like:
+```
+http://localhost:5173/
+```
+
+Open it to use your counter app.
+
+# 📌 Usage Example
+```
+import Counter from "./assets/components/counter";
+
+function App() {
+  return <Counter />;
+}
+```
+
+# ⭐ Future Improvements (optional)
+
+Add dark mode
+
+Add auto-increment using useEffect
+
+Add animations
+
+Add custom step increment
+
+# 💙 Created By
+
+Jinal Jain
+
+All code is written by me for this project.
