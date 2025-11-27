@@ -101,7 +101,7 @@ Add custom step increment
 
 # ScreenShot
 
-![Counter]([Project02-Counter/Output/Screenshot 2025-11-27 091828.png](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project02-Counter/Output/Screenshot%202025-11-27%20091828.png)
+![Counter](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project02-Counter/Output/Screenshot%202025-11-27%20091828.png)
 
 # 💙 Created By
 
