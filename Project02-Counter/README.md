@@ -5,8 +5,13 @@ A lightweight and user-friendly counter application built using React.js, featur
 # 🚀 Features
 
 ➕ Increment Count
+
 ➖ Decrement Count
+
 🔁 Reset Count
+
 🔍 Dynamic message based on count value
+
 🎨 Simple & clean UI
+
 ⚛️ Built using React Functional Components + Hooks
