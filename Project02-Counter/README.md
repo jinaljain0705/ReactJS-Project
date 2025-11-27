@@ -37,13 +37,13 @@ JavaScript (ES6+)
 CSS
 
 # 📘 How It Works
-  # 🧠 useState Hook
+  🧠 useState Hook
 
 The counter value is managed using:
 
 const [count, setCount] = useState(0);
 
-# 📊 Dynamic Message
+📊 Dynamic Message
 
 Depending on count:
 
@@ -53,7 +53,7 @@ If count < 0 → "Count is negative"
 
 If count === 0 → "Count is back to zero"
 
-# 🎛 Buttons
+ 🎛 Buttons
 
 Increment → setCount(count + 1)
 
@@ -62,7 +62,7 @@ Decrement → setCount(count - 1)
 Reset → setCount(0)
 
 # ▶️ How to Run the Project
-  # 1️⃣ Install Dependencies
+  1️⃣ Install Dependencies
   ```
 npm install
 ```
@@ -101,7 +101,7 @@ Add custom step increment
 
 # ScreenShot
 
-![Counter](Project02-Counter/Output/Screenshot 2025-11-27 091828.png)
+![Counter]([Project02-Counter/Output/Screenshot 2025-11-27 091828.png](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project02-Counter/Output/Screenshot%202025-11-27%20091828.png)
 
 # 💙 Created By
 
