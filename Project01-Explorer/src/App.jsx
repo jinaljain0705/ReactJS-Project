@@ -9,8 +9,8 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="app-container">
-      <div className="inner-wrapper">
+    <div className="app-wrapper">
+      <div className="main-container">
       <SectionTitle />
       <IntroSection />
       <StatePropsDemo />
