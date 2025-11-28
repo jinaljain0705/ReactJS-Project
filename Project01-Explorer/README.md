@@ -80,6 +80,13 @@ src/
   App.css
 ```
 
+# Open in Browser
+
+Vite will show a local URL like:
+```
+http://localhost:5173/
+```
+
 # 📸 Added My Screenshots Here
 ![ReactExplorer](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project01-Explorer/src/Screenshot/Screenshot%202025-11-28%20231016.png)
 
