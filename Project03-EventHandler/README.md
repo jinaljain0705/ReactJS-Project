@@ -98,14 +98,6 @@ Present Students
 
 Absent Students
 
-# 🖥️ Screenshots
-
-📌 Home Page
-![Home Page](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project03-EventHandler/src/assets/Screenshot/Screenshot%202025-12-01%20162542.png)
-
-📌 Add Student Form and list
-![Add Form and list](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project03-EventHandler/src/assets/Screenshot/Screenshot%202025-12-01%20164004.png)
-
 # 🛠 Installation & Setup
 
 1️⃣ Clone the Repository
@@ -164,10 +156,22 @@ npm run dev
 ```
 
 # Open in Browser
+
 Vite will show a local URL like:
+
 ```
 http://localhost:5173/
 ```
+
+# 🖥️ Screenshots
+
+📌 Home Page
+![Home Page](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project03-EventHandler/src/assets/Screenshot/Screenshot%202025-12-01%20162542.png)
+
+📌 Add Student Form and list
+![Add Form and list](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project03-EventHandler/src/assets/Screenshot/Screenshot%202025-12-01%20164004.png)
+
+
 Created By:
 
 Jinal Jain
