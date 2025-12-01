@@ -108,19 +108,26 @@ Absent Students
 
 # 🛠 Installation & Setup
 1️⃣ Clone the Repository
+```
 git clone https://github.com/YOUR-USERNAME/Student-Activity-Manager.git
 cd Student-Activity-Manager
-
+```
 2️⃣ Install Dependencies
+```
 npm install
+```
 
 # 🎨 TailwindCSS Setup (Exactly How Your Screenshot Shows)
 🟦 Step 1 — Create Vite Project
+```
 npm create vite@latest my-project
 cd my-project
+```
 
 🟦 Step 2 — Install TailwindCSS + Plugin
+```
 npm install tailwindcss @tailwindcss/vite
+```
 
 🟦 Step 3 — Configure Vite Plugin
 
