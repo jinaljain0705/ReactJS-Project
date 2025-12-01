@@ -143,3 +143,12 @@ npm run dev
 
 ▶️ Run Project
 npm run dev
+
+# Open in Browser
+Vite will show a local URL like:
+```
+http://localhost:5173/
+```
+Created By:
+
+Jinal Jain
