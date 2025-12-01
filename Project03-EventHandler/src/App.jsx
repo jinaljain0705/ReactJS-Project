@@ -6,10 +6,13 @@ import "./App.css";
 const App = () => {
   const [students, setStudents] = useState([]);
 
-  const addStudent = (name) => {
+  // Updated to receive full object {name, course, phone}
+  const addStudent = ({ name, course, phone }) => {
     const newStudent = {
       id: Date.now(),
       name,
+      course,
+      phone,
       status: "",
       showDetails: false,
     };
@@ -48,10 +51,12 @@ const App = () => {
       {/* Dashboard Summary */}
       <div className="bg-gray-100 p-4 rounded-xl shadow mb-6 flex justify-between text-center">
         <p>Total: <b>{students.length}</b></p>
-        <p>Present: 
+        <p>
+          Present:{" "}
           <span className="text-green-600 font-semibold">{presentCount}</span>
         </p>
-        <p>Absent: 
+        <p>
+          Absent:{" "}
           <span className="text-red-600 font-semibold">{absentCount}</span>
         </p>
       </div>
@@ -62,7 +67,8 @@ const App = () => {
         students={students}
         toggleDetails={toggleDetails}
         deleteStudent={deleteStudent}
-        markStatus={markStatus} />
+        markStatus={markStatus}
+      />
     </div>
   );
 };

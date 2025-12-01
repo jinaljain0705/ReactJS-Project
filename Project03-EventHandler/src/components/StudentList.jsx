@@ -13,7 +13,8 @@ const StudentList = ({ students, toggleDetails, deleteStudent, markStatus }) => 
           student={stu}
           toggleDetails={toggleDetails}
           deleteStudent={deleteStudent}
-          markStatus={markStatus} />
+          markStatus={markStatus}
+        />
       ))}
     </>
   );
