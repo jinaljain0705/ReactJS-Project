@@ -101,7 +101,7 @@ Absent Students
 # 🖥️ Screenshots
 
 📌 Home Page
-![Home Page]()
+![Home Page](Project03-EventHandler/src/assets/Screenshot/Screenshot 2025-12-01 162542.png)
 
 📌 Add Student Form and list
 ![Add Form and list]()
