@@ -24,20 +24,17 @@ const StudentForm = ({ addStudent }) => {
     <>
       <form
         onSubmit={handleSubmit}
-        className="flex gap-3 items-start mb-5 bg-white p-4 rounded-xl shadow"
-      >
+        className="flex gap-3 items-start mb-5 bg-white p-4 rounded-xl shadow">
         <input
           ref={nameRef}
           type="text"
           placeholder="Enter student name..."
           className="border rounded-lg px-4 py-2 w-full outline-blue-500"
-          autoFocus
-        />
+          autoFocus/>
 
         <button
           type="submit"
-          className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700"
-        >
+          className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">
           Add
         </button>
       </form>

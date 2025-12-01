@@ -48,8 +48,12 @@ const App = () => {
       {/* Dashboard Summary */}
       <div className="bg-gray-100 p-4 rounded-xl shadow mb-6 flex justify-between text-center">
         <p>Total: <b>{students.length}</b></p>
-        <p>Present: <span className="text-green-600 font-semibold">{presentCount}</span></p>
-        <p>Absent: <span className="text-red-600 font-semibold">{absentCount}</span></p>
+        <p>Present: 
+          <span className="text-green-600 font-semibold">{presentCount}</span>
+        </p>
+        <p>Absent: 
+          <span className="text-red-600 font-semibold">{absentCount}</span>
+        </p>
       </div>
 
       <StudentForm addStudent={addStudent} />
@@ -58,8 +62,7 @@ const App = () => {
         students={students}
         toggleDetails={toggleDetails}
         deleteStudent={deleteStudent}
-        markStatus={markStatus}
-      />
+        markStatus={markStatus} />
     </div>
   );
 };
