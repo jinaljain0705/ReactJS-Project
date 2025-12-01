@@ -1,16 +1,152 @@
-# React + Vite
+🎓 Student Activity Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + TailwindCSS based mini-project designed to help students learn & practice core React fundamentals, including Events, State, Props, Refs, Conditional Rendering, Fragments, and Argument Passing.
 
-Currently, two official plugins are available:
+This project runs 100% on client-side React state — no backend or database required.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Project Overview
 
-## React Compiler
+Student Activity Manager allows users to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Add students
 
-## Expanding the ESLint configuration
+Validate input fields
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Mark attendance (Present/Absent)
+
+Toggle extra details
+
+Delete students
+
+View real-time dashboard stats
+
+All UI updates instantly using React’s Virtual DOM.
+
+🧠 React Concepts Covered
+⚛️ Core Topics
+
+Event Handling (onChange, onClick, onSubmit)
+
+Passing Arguments in Events
+
+Conditional Rendering
+
+Using Refs (DOM Access)
+
+React Fragments (<> ... </>)
+
+useState Hook
+
+Props & Component Communication
+
+List Rendering (map)
+
+State Lifting
+
+ES6 (Spread Operator, Arrow Functions)
+
+📂 Project Structure
+src/
+ ┣ components/
+ ┃ ┣ StudentForm.jsx      // Add students + Refs + Validation
+ ┃ ┣ StudentList.jsx      // Rendering students using map()
+ ┃ ┗ StudentCard.jsx      // Toggle, delete, attendance features
+ ┣ App.jsx                // Main state & dashboard
+ ┗ index.css              // TailwindCSS import
+
+🚀 Features
+✔ Add Students
+
+Uses useRef for autofocus
+
+Input validation
+
+Auto-clear after submit
+
+✔ Student List
+
+Rendered dynamically via map()
+
+Clean UI using TailwindCSS
+
+✔ Toggle More Details
+
+Show/hide extra information per student.
+
+✔ Attendance System
+
+Mark each student as:
+
+🟢 Present
+
+🔴 Absent
+
+Changes reflect in real-time dashboard.
+
+✔ Delete Student
+
+Instantly removes student from list.
+
+✔ Dashboard Summary
+
+Automatically updates:
+
+Total Students
+
+Present Students
+
+Absent Students
+
+🖥️ Screenshots (Add Your Images Here)
+
+Replace the paths below with your actual uploaded images.
+
+📌 Home Page
+![Home Page](./screenshots/home.png)
+
+📌 Add Student Form
+![Add Form](./screenshots/form.png)
+
+📌 Student List
+![Student List](./screenshots/list.png)
+
+📌 Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+🛠 Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/YOUR-USERNAME/Student-Activity-Manager.git
+cd Student-Activity-Manager
+
+2️⃣ Install Dependencies
+npm install
+
+🎨 TailwindCSS Setup (Exactly How Your Screenshot Shows)
+🟦 Step 1 — Create Vite Project
+npm create vite@latest my-project
+cd my-project
+
+🟦 Step 2 — Install TailwindCSS + Plugin
+npm install tailwindcss @tailwindcss/vite
+
+🟦 Step 3 — Configure Vite Plugin
+
+Create/edit vite.config.js:
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+🟦 Step 4 — Import Tailwind in index.css
+@import "tailwindcss";
+
+🟦 Step 5 — Start Your Dev Server
+npm run dev
+
+▶️ Run Project
+npm run dev
