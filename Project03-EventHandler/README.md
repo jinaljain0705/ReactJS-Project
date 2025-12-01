@@ -107,24 +107,31 @@ Absent Students
 ![Add Form and list](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project03-EventHandler/src/assets/Screenshot/Screenshot%202025-12-01%20164004.png)
 
 # 🛠 Installation & Setup
+
 1️⃣ Clone the Repository
+
 ```
 git clone https://github.com/YOUR-USERNAME/Student-Activity-Manager.git
 cd Student-Activity-Manager
 ```
+
 2️⃣ Install Dependencies
+
 ```
 npm install
 ```
 
-# 🎨 TailwindCSS Setup (Exactly How Your Screenshot Shows)
+# 🎨 TailwindCSS Setup
+
 🟦 Step 1 — Create Vite Project
+
 ```
 npm create vite@latest my-project
 cd my-project
 ```
 
 🟦 Step 2 — Install TailwindCSS + Plugin
+
 ```
 npm install tailwindcss @tailwindcss/vite
 ```
@@ -132,6 +139,7 @@ npm install tailwindcss @tailwindcss/vite
 🟦 Step 3 — Configure Vite Plugin
 
 Create/edit vite.config.js:
+
 ```
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
@@ -142,14 +150,18 @@ export default defineConfig({
   ],
 })
 ```
+
 🟦 Step 4 — Import Tailwind in index.css
+
+```
 @import "tailwindcss";
+```
 
 🟦 Step 5 — Start Your Dev Server
-npm run dev
 
-▶️ Run Project
+```
 npm run dev
+```
 
 # Open in Browser
 Vite will show a local URL like:
