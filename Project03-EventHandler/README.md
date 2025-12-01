@@ -1,10 +1,10 @@
-🎓 Student Activity Manager
+# 🎓 Student Activity Manager
 
 A React + TailwindCSS based mini-project designed to help students learn & practice core React fundamentals, including Events, State, Props, Refs, Conditional Rendering, Fragments, and Argument Passing.
 
 This project runs 100% on client-side React state — no backend or database required.
 
-📌 Project Overview
+# 📌 Project Overview
 
 Student Activity Manager allows users to:
 
@@ -22,8 +22,8 @@ View real-time dashboard stats
 
 All UI updates instantly using React’s Virtual DOM.
 
-🧠 React Concepts Covered
-⚛️ Core Topics
+# 🧠 React Concepts Covered
+# ⚛️ Core Topics
 
 Event Handling (onChange, onClick, onSubmit)
 
@@ -45,7 +45,8 @@ State Lifting
 
 ES6 (Spread Operator, Arrow Functions)
 
-📂 Project Structure
+# 📂 Project Structure
+```
 src/
  ┣ components/
  ┃ ┣ StudentForm.jsx      // Add students + Refs + Validation
@@ -53,8 +54,8 @@ src/
  ┃ ┗ StudentCard.jsx      // Toggle, delete, attendance features
  ┣ App.jsx                // Main state & dashboard
  ┗ index.css              // TailwindCSS import
-
-🚀 Features
+``` 
+# 🚀 Features
 ✔ Add Students
 
 Uses useRef for autofocus
@@ -97,23 +98,15 @@ Present Students
 
 Absent Students
 
-🖥️ Screenshots (Add Your Images Here)
-
-Replace the paths below with your actual uploaded images.
+# 🖥️ Screenshots
 
 📌 Home Page
-![Home Page](./screenshots/home.png)
+![Home Page]()
 
-📌 Add Student Form
-![Add Form](./screenshots/form.png)
+📌 Add Student Form and list
+![Add Form and list]()
 
-📌 Student List
-![Student List](./screenshots/list.png)
-
-📌 Dashboard
-![Dashboard](./screenshots/dashboard.png)
-
-🛠 Installation & Setup
+# 🛠 Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/YOUR-USERNAME/Student-Activity-Manager.git
 cd Student-Activity-Manager
@@ -121,7 +114,7 @@ cd Student-Activity-Manager
 2️⃣ Install Dependencies
 npm install
 
-🎨 TailwindCSS Setup (Exactly How Your Screenshot Shows)
+# 🎨 TailwindCSS Setup (Exactly How Your Screenshot Shows)
 🟦 Step 1 — Create Vite Project
 npm create vite@latest my-project
 cd my-project
@@ -132,7 +125,7 @@ npm install tailwindcss @tailwindcss/vite
 🟦 Step 3 — Configure Vite Plugin
 
 Create/edit vite.config.js:
-
+```
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 
@@ -141,7 +134,7 @@ export default defineConfig({
     tailwindcss(),
   ],
 })
-
+```
 🟦 Step 4 — Import Tailwind in index.css
 @import "tailwindcss";
 
