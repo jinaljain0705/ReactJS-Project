@@ -1,0 +1,91 @@
+/* HeroSection */
+.hero-slider {
+  position: relative;
+}
+
+.hero-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero-caption {
+  top: 20%;
+  left: 10%;
+  text-align: left;
+}
+
+.caption-box {
+  background: rgba(255,255,255,0.1);
+  padding: 20px 30px;
+  display: inline-block;
+  /* backdrop-filter: blur(1px); */
+}
+
+.small-text {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main-title {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.main-title span {
+  color: red;
+}
+
+.sub {
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* SportCategory */
+.sports-wrapper {
+  background: #2b2b2b;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.sports-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.sports-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sports-info h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sports-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
