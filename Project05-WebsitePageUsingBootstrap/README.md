@@ -166,4 +166,5 @@ Or use Bootstrap utility classes.
 # 💬 Author
 
 Jinal Jain
+
 Frontend / Full-Stack Developer
