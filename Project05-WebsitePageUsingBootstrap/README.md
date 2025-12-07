@@ -1,16 +1,153 @@
-# React + Vite
+# 🏅 Sports Training Website – React + Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive sports-themed website built using React, React-Bootstrap, and custom styling.
+The website includes banners, blogs, promo sections, icons, footer, and multiple content blocks that replicate a professional sports theme layout.
 
-Currently, two official plugins are available:
+# 📌 Features
+# 🎨 UI Sections
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✔ Hero Banner with Image + Promo Text
 
-## React Compiler
+✔ Promo Icons (Choose Sport, Train by Professionals, Become a Pro)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔ Blog Section with Cards
 
-## Expanding the ESLint configuration
+✔ Product / Promo Banner (Bike / BMX Section)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Footer with Social Icons, Useful Links & Timings
+
+# ⚛️ Tech Stack
+
+React.js
+
+React-Bootstrap
+
+Bootstrap Icons / React Icons
+
+Custom CSS
+
+# 📁 Project Structure
+
+```
+/src
+ ├── components
+ │    ├── Navbar.jsx
+ │    ├── HeroBanner.jsx
+ │    ├── PromoIcons.jsx
+ │    ├── BlogSection.jsx
+ │    ├── PromoBanner.jsx
+ │    └── Footer.jsx
+ │
+ ├── assets
+ │    ├── images (bmx.jpg, icon1.png, blog images, etc.)
+ │    └── icons
+ │
+ ├── App.jsx
+ └── index.js
+```
+
+# 🚀 Installation & Setup
+
+1️⃣ Clone Repository
+
+```
+git clone https://github.com/your-username/sports-website.git
+cd sports-website
+```
+
+2️⃣ Install Dependencies
+
+```
+npm install
+```
+
+3️⃣ Run Project
+
+```
+npm run dev
+```
+
+# 🔹 Website will open at:
+
+```
+http://localhost:5173
+```
+
+# 🖼 Adding Images
+
+Place images in:
+
+```
+src/assets/images
+```
+
+Then import them like this:
+
+```
+import bike from "../assets/images/bmx.jpg";
+<img src={bike} alt="Promo" />
+```
+
+# 🧩 Components Overview
+
+🟦 Hero Banner
+
+Left: Large Image
+
+Right: Promo icons + Heading + Buttons
+
+🟩 Promo Icons
+
+3 Equal Columns
+
+Icons replaced using react-icons
+
+Perfect for marketing features
+
+🟧 Blog Section
+
+Displays 3 Blog Cards
+
+Includes title, date, badge, description
+
+🟨 Promo Banner (BMX Section)
+
+Full-width colored banner
+
+Left image, right content with buttons
+
+⚫ Footer
+
+4 Columns: About, Useful Links, Latest Posts, Timing
+
+Social icons included
+
+Dark theme with clean layout
+
+# 🎨 Custom Styling
+
+You can modify all CSS inside:
+
+```
+src/App.css
+src/components/YourComponent.css
+```
+
+Or use Bootstrap utility classes.
+
+# 📦 Dependencies Used
+
+```
+"dependencies": {
+  "react": "^18.x",
+  "react-dom": "^18.x",
+  "react-bootstrap": "^2.x",
+  "bootstrap": "^5.x",
+  "react-icons": "^4.x"
+}
+```
+
+# 💬 Author
+
+Jinal Jain
+Frontend / Full-Stack Developer
