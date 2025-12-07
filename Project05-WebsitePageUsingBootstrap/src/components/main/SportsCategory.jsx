@@ -1,6 +1,6 @@
 import "../../App.css";
 
-function SportsCategory() {
+export default function SportsCategory() {
   const items = [
     { icon: "🏃", title: "BASE BALL", text: "The best sports event ever" },
     { icon: "🚴", title: "CYCLING", text: "The best sports event ever" },
@@ -26,4 +26,3 @@ function SportsCategory() {
   );
 }
 
-export default SportsCategory;

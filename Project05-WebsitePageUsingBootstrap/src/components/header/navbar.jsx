@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Badge from "react-bootstrap/Badge";
 import { FaShoppingCart } from "react-icons/fa";
 
-function Header() {
+export default function Header() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
       <Container>
@@ -33,10 +33,7 @@ function Header() {
 
               <FaShoppingCart size={20} />
 
-              <Badge
-                bg="primary"
-                pill
-                className="position-absolute top-0 start-100 translate-middle">
+              <Badge bg="primary" className="position-absolute top-0 start-100 translate-middle">
                 0
               </Badge>
 
@@ -48,4 +45,3 @@ function Header() {
   );
 }
 
-export default Header;

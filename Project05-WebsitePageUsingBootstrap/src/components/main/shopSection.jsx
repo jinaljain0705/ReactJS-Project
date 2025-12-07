@@ -48,7 +48,7 @@ const data = [
   }
 ];
 
-const ShopSection = () => {
+export default function ShopSection () {
   return (
     <div className="container text-center mt-5">
       <h1 className="fw-bold">SHOP WITH US</h1>
@@ -66,11 +66,7 @@ const ShopSection = () => {
                     {item.tag}
                   </span>
                 )}
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="img-fluid"
-                  style={{ height: "240px", objectFit: "contain" }}/>
+                <img src={item.img} alt={item.title} className="img-fluid" style={{ height: "240px", objectFit: "contain" }}/>
               </div>
 
               <h5 className="mt-3">{item.title}</h5>
@@ -90,4 +86,4 @@ const ShopSection = () => {
   );
 };
 
-export default ShopSection;
+
