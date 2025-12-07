@@ -149,7 +149,7 @@ Or use Bootstrap utility classes.
 
 # Screenshot
 
-![Screen-01]{}
+![Screen-01]{https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project05-WebsitePageUsingBootstrap/src/assets/Screenshot/Screenshot-01.png}
 
 ![Screen-02]{}
 
