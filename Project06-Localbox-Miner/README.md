@@ -114,7 +114,7 @@ Open your browser at `http://localhost:5173`
 
 ### 3. UpdateRecord
 
-   ![UpdateRecord]()
+   ![UpdateRecord](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project06-Localbox-Miner/src/assets/ScreenShot/UpdateRecord.png)
 
 ### 4. DeleteRecord
 
