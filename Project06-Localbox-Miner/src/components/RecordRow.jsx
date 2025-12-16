@@ -6,15 +6,13 @@ export default function RecordRow({ record, onEdit, onDelete }) {
       <td className="p-2 space-x-2">
         <button
           onClick={() => onEdit(record)}
-          className="bg-yellow-400 px-3 py-1 rounded"
-        >
+          className="bg-yellow-400 px-3 py-1 rounded">
           Edit
         </button>
 
         <button
           onClick={() => onDelete(record.id)}
-          className="bg-red-500 text-white px-3 py-1 rounded"
-        >
+          className="bg-red-500 text-white px-3 py-1 rounded">
           Delete
         </button>
       </td>

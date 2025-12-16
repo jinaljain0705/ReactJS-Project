@@ -15,8 +15,7 @@ export default function RecordList({ records, onEdit, onDelete, onClear }) {
           className="border p-2 rounded w-1/2"
           placeholder="Search record..."
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
+          onChange={(e) => setSearch(e.target.value)}/>
 
         <span className="text-sm">Showing {filteredRecords.length}</span>
       </div>
@@ -39,16 +38,14 @@ export default function RecordList({ records, onEdit, onDelete, onClear }) {
                   key={record.id}
                   record={record}
                   onEdit={onEdit}
-                  onDelete={onDelete}
-                />
+                  onDelete={onDelete}/>
               ))}
             </tbody>
           </table>
 
           <button
             onClick={onClear}
-            className="mt-4 bg-red-500 text-white px-4 py-2 rounded"
-          >
+            className="mt-4 bg-red-500 text-white px-4 py-2 rounded">
             Clear All
           </button>
         </>

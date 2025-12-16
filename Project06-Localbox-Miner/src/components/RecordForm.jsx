@@ -51,8 +51,7 @@ export default function RecordForm({ addRecord, updateRecord, editRecord }) {
              placeholder-gray-400"
           placeholder="Record Name"
           value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
+          onChange={(e) => setName(e.target.value)}/>
 
         <input
           className="border p-2 rounded
@@ -61,15 +60,13 @@ export default function RecordForm({ addRecord, updateRecord, editRecord }) {
              placeholder-gray-400"
           placeholder="Record Value"
           value={value}
-          onChange={(e) => setValue(e.target.value)}
-        />
+          onChange={(e) => setValue(e.target.value)}/>
       </div>
 
       <div className="mt-4 flex gap-3">
         <button
           type="submit"
-          className="bg-blue-600 text-dark px-5 py-2 rounded"
-        >
+          className="bg-blue-600 text-dark px-5 py-2 rounded">
           {editRecord ? "Update" : "Add"}
         </button>
 
@@ -77,8 +74,7 @@ export default function RecordForm({ addRecord, updateRecord, editRecord }) {
           <button
             type="button"
             onClick={() => updateRecord(null)}
-            className="bg-gray-400 text-dark px-5 py-2 rounded"
-          >
+            className="bg-gray-400 text-dark px-5 py-2 rounded">
             Cancel
           </button>
         )}
