@@ -61,13 +61,13 @@ cd localbox-miner
 npm install
 ```
 
-### 3️⃣ Install Tailwind CSS ** (Vite Plugin Method) **
+### 3️⃣ Install Tailwind CSS (Vite Plugin Method)
 
 ```
 npm install tailwindcss @tailwindcss/vite
 ```
 
-Configure Vite Plugin ** (vite.config.js) **
+Configure Vite Plugin (`vite.config.js`)
 
 ```
 import { defineConfig } from "vite";
@@ -83,13 +83,13 @@ export default defineConfig({
 ```
 
 
-Import Tailwind in CSS ** (src/index.css) **
+Import Tailwind in CSS (`src/index.css`)
 
 ```
 @import "tailwindcss";
 ```
 
-Import CSS in Entry File ** (main.jsx) **
+Import CSS in Entry File (`main.jsx`)
 
 ```
 import './index.css';
@@ -101,7 +101,7 @@ import './index.css';
 npm run dev
 ```
 
-Open your browser at ** http://localhost:5173 **
+Open your browser at `http://localhost:5173`
 
 # ScreenShot
 
@@ -124,6 +124,6 @@ Open your browser at ** http://localhost:5173 **
 
 # 👤 Author
 
-Name: Jinal Jain
+### Name: Jinal Jain
 
-Role: Full-stack / React Developer
+### Role: Full-stack / React Developer
