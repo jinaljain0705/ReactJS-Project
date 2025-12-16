@@ -118,8 +118,7 @@ Open your browser at `http://localhost:5173`
 
 ### 4. DeleteRecord
 
-   ![DeleteRecord]()
-
+   ![DeleteRecord](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project06-Localbox-Miner/src/assets/ScreenShot/DeleteRecord.png)
 
 # 👤 Author
 
