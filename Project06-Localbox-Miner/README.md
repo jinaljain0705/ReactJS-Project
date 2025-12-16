@@ -110,7 +110,7 @@ Open your browser at `http://localhost:5173`
 
 ### 2. AddRecord
 
-   ![AddRecord]()
+   ![AddRecord](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project06-Localbox-Miner/src/assets/ScreenShot/AddRecord.png)
 
 ### 3. UpdateRecord
 
