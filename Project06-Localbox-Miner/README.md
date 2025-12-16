@@ -1,16 +1,129 @@
-# React + Vite
+# 📦 LocalBox Miner – React + LocalStorage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LocalBox Miner is a React-based offline data management application designed to demonstrate core React concepts such as state management, localStorage integration, CRUD operations, component communication, and event-driven UI updates.
 
-Currently, two official plugins are available:
+This project works completely offline and stores all data inside the browser using localStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📌 Features
 
-## React Compiler
+Add / Edit Record Form
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Records Table with Edit & Delete actions
 
-## Expanding the ESLint configuration
+Dashboard Stats (Total Records, Last Added Record)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Search / Filter Records
+
+Clear All Records option
+
+Dark Mode support
+
+Validation & Conditional UI Messages
+
+# ⚛️ Tech Stack
+
+React.js (Functional Components + Hooks)
+
+Tailwind CSS (Vite plugin method)
+
+JavaScript (ES6)
+
+Browser localStorage
+
+# 📁 Project Structure
+
+```
+/src
+ ├── components
+ │    ├── RecordForm.jsx
+ │    ├── RecordList.jsx
+ │    ├── RecordRow.jsx
+ │    ├── DashboardStats.jsx
+ │    ├── SearchBar.jsx
+ │    └── DarkModeToggle.jsx
+ │
+ ├── App.jsx
+ └── main.jsx
+```
+
+# 🚀 Installation & Setup
+
+1️⃣ Clone the Repository
+
+```
+git clone https://github.com/your-username/localbox-miner.git
+cd localbox-miner
+```
+
+2️⃣ Install Dependencies
+
+```
+npm install
+```
+
+3️⃣ Install Tailwind CSS (Vite Plugin Method)
+
+```
+npm install tailwindcss @tailwindcss/vite
+```
+
+Configure Vite Plugin (vite.config.js)
+
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+});
+```
+
+
+Import Tailwind in CSS (src/index.css)
+
+```
+@import "tailwindcss";
+```
+
+Import CSS in Entry File (main.jsx)
+
+```
+import './index.css';
+```
+
+4️⃣ Run the Project
+
+```
+npm run dev
+```
+
+Open your browser at http://localhost:5173.
+
+# ScreenShot
+
+1. LocalBoxMiner
+
+   ![LocalBoxMiner]()
+
+2. AddRecord
+
+   ![AddRecord]()
+
+3. UpdateRecord
+
+   ![UpdateRecord]()
+
+4. DeleteRecord
+
+   ![DeleteRecord]()
+
+
+# 👤 Author
+
+Name: Jinal Jain
+
+Role: Full-stack / React Developer
