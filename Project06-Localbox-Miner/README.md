@@ -82,7 +82,6 @@ export default defineConfig({
 });
 ```
 
-
 Import Tailwind in CSS (`src/index.css`)
 
 ```
