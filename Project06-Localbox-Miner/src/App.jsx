@@ -86,7 +86,7 @@ export default function App() {
 
           {/* Record List */}
           <RecordList
-            records={filteredRecords}  // filtered using search
+            records={filteredRecords} 
             onEdit={setEditRecord}
             onDelete={deleteRecord}
             onClear={clearAllRecords}
