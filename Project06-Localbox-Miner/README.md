@@ -106,7 +106,7 @@ Open your browser at `http://localhost:5173`
 
 ### 1. LocalBoxMiner
 
-   ![LocalBoxMiner]()
+   ![LocalBoxMiner](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project06-Localbox-Miner/src/assets/ScreenShot/LocalBoxMiner.png)
 
 ### 2. AddRecord
 
