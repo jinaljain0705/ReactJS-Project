@@ -48,26 +48,26 @@ Browser localStorage
 
 # 🚀 Installation & Setup
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```
 git clone https://github.com/your-username/localbox-miner.git
 cd localbox-miner
 ```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```
 npm install
 ```
 
-3️⃣ Install Tailwind CSS (Vite Plugin Method)
+### 3️⃣ Install Tailwind CSS ** (Vite Plugin Method) **
 
 ```
 npm install tailwindcss @tailwindcss/vite
 ```
 
-Configure Vite Plugin (vite.config.js)
+Configure Vite Plugin ** (vite.config.js) **
 
 ```
 import { defineConfig } from "vite";
@@ -83,41 +83,41 @@ export default defineConfig({
 ```
 
 
-Import Tailwind in CSS (src/index.css)
+Import Tailwind in CSS ** (src/index.css) **
 
 ```
 @import "tailwindcss";
 ```
 
-Import CSS in Entry File (main.jsx)
+Import CSS in Entry File ** (main.jsx) **
 
 ```
 import './index.css';
 ```
 
-4️⃣ Run the Project
+### 4️⃣ Run the Project
 
 ```
 npm run dev
 ```
 
-Open your browser at http://localhost:5173.
+Open your browser at ** http://localhost:5173 **
 
 # ScreenShot
 
-1. LocalBoxMiner
+### 1. LocalBoxMiner
 
    ![LocalBoxMiner]()
 
-2. AddRecord
+### 2. AddRecord
 
    ![AddRecord]()
 
-3. UpdateRecord
+### 3. UpdateRecord
 
    ![UpdateRecord]()
 
-4. DeleteRecord
+### 4. DeleteRecord
 
    ![DeleteRecord]()
 
