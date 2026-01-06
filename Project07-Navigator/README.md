@@ -56,6 +56,15 @@ src/
 └── main.jsx
 ```
 
+## 🧭 Application Routes
+
+| Route       | Description              |
+|------------|--------------------------|
+| `/`        | Dashboard / Overview     |
+| `/add`     | Add New Employee         |
+| `/view`    | View Employee List       |
+| `/edit/:id`| Edit Employee Details    |
+
 
 # 🔄 Application Flow
 
