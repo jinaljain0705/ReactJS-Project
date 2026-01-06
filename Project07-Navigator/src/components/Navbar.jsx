@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Navbar() {
+export default function Navbar() {
   return (
     <div className="bg-indigo-600 text-white px-8 py-4 flex justify-between items-center">
       <h1 className="text-xl font-bold">Employee Panel</h1>
@@ -19,4 +19,3 @@ function Navbar() {
   );
 }
 
-export default Navbar;

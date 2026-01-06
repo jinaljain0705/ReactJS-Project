@@ -1,12 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
-function ViewEmployee() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    setData(JSON.parse(localStorage.getItem("Employees")) || []);
-  }, []);
+export default function ViewEmployee() {
+  const [data, setData] = useState(() => {
+    return JSON.parse(localStorage.getItem("Employees")) || [];
+  });
 
   const removeEmp = (id) => {
     const filtered = data.filter((e) => e.id !== id);
@@ -102,5 +100,3 @@ function ViewEmployee() {
     </div>
   );
 }
-
-export default ViewEmployee;

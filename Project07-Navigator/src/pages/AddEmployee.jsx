@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function AddEmployee() {
+export default function AddEmployee() {
   const navigate = useNavigate();
   const [form, setForm] = useState({
     eid: "",
@@ -101,4 +101,3 @@ function AddEmployee() {
   );
 }
 
-export default AddEmployee;
