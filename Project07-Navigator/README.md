@@ -59,25 +59,45 @@ src/
 
 # 🔄 Application Flow
 
-### Home Page
+### 🏠 Home Page
 
-Displays employee overview in card format.
+Displays an employee overview in card format.
 
-### Add Employee
+Shows basic employee details with profile images.
 
-Form to add employee details such as name, email, phone, department, designation, salary, status, and image.
+### ➕ Add Employee
 
-### View Employee
+Form to add employee details such as:
 
-Displays all employees in a table with full details.
+Name
+
+Email
+
+Phone
+
+Department
+
+Designation
+
+Salary
+
+Status (Active / Inactive)
+
+Profile Image
+
+### 👁️ View Employee
+
+Displays all employees in a tabular format.
+
+Shows complete employee information.
 
 Provides Edit and Delete actions.
 
-### Edit Employee
+### ✏️ Edit Employee
 
 Allows updating existing employee information.
 
-Pre-fills data using route parameter (id).
+Automatically pre-fills employee data using route parameter (id).
 
 # 💾 LocalStorage Usage
 
@@ -87,7 +107,9 @@ Data remains available even after page refresh.
 
 ### Example key used:
 
+```
 Employees
+```
 
 # 🎨 UI Highlights
 
@@ -103,19 +125,52 @@ Clean form layout with validation-ready inputs
 
 # ▶️ How to Run the Project
 
-Clone the repository
+### 1️⃣Clone the repository
 
 ```
 git clone <repository-url>
 ```
 
-Install dependencies
+### 2️⃣Install dependencies
 
 ```
 npm install
 ```
 
-Start the development server
+### 3️⃣ Install Tailwind CSS (Vite Plugin Method)
+
+```
+npm install tailwindcss @tailwindcss/vite
+```
+
+Configure Vite Plugin (`vite.config.js`)
+
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+});
+```
+
+Import Tailwind CSS (`src/index.css`)
+
+```
+@import "tailwindcss";
+```
+
+Import CSS in Entry File (`main.jsx`)
+
+```
+import './index.css';
+```
+
+### 4️⃣Start the development server
 
 ```
 npm run dev
