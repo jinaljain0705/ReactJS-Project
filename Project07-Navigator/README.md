@@ -194,7 +194,7 @@ Code is structured for easy understanding and scalability.
 
 ### Home Page
 
- ![homepage]()
+ ![homepage](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project07-Navigator/src/assets/screenshot/homepage.png)
 
 ### Add Employee Form
 
