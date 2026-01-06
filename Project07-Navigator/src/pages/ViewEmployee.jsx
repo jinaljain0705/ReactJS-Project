@@ -26,6 +26,7 @@ export default function ViewEmployee() {
             <th>Email</th>
             <th>Phone Number</th>
             <th>Department</th>
+            <th>Designation</th>
             <th>Salary</th>
             <th>Status</th>
             <th>Action</th>
@@ -61,6 +62,9 @@ export default function ViewEmployee() {
 
               {/* Department */}
               <td className="p-3">{emp.department}</td>
+
+              {/* Designation */}
+              <td className="p-3">{emp.designation}</td>
 
               {/* Salary */}
               <td className="p-3 font-semibold text-gray-800">₹{emp.salary}</td>

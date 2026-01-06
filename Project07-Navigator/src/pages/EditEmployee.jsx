@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-function EditEmployee() {
+export default function EditEmployee() {
   const { id } = useParams();
   const navigate = useNavigate();
 
@@ -13,6 +13,7 @@ function EditEmployee() {
     designation: "",
     salary: "",
     status: "Active",
+    image: ""
   });
 
   useEffect(() => {
@@ -122,4 +123,3 @@ function EditEmployee() {
   );
 }
 
-export default EditEmployee;
