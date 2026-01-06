@@ -78,14 +78,15 @@ src/
 ├── index.css
 └── main.jsx
 ```
-# 🧭 Application Routes
+## 🧭 Application Routes
 
-Route	                 Description
+| Route       | Description              |
+|------------|--------------------------|
+| `/`        | Dashboard / Overview     |
+| `/add`     | Add New Employee         |
+| `/view`    | View Employee List       |
+| `/edit/:id`| Edit Employee Details    |
 
-`/`	                     Dashboard / Overview
-`/add`	                 Add New Employee
-`/view`                  View Employee List
-`/edit/:id`	             Edit Employee Details
 
 # 🔍 Search, Filter & Sort Logic
 
