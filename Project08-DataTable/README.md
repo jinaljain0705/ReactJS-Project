@@ -21,6 +21,29 @@ This project allows users to add, view, edit, and delete employee records with a
 
 🔀 Page navigation using React Router DOM
 
+# 🔹 Advanced Features
+
+### 🔍 Search employees by:
+
+Name
+
+Email
+
+Department
+
+### 🎯 Filter employees by status:
+
+Active
+
+Inactive
+
+### 🔃 Sort employees by:
+
+Name (Ascending / Descending)
+
+Salary (Ascending / Descending)
+
+
 # 🛠️ Technologies Used
 
 ```
@@ -55,6 +78,48 @@ src/
 ├── index.css
 └── main.jsx
 ```
+# 🧭 Application Routes
+
+Route	                 Description
+
+`/`	                     Dashboard / Overview
+`/add`	                 Add New Employee
+`/view`                  View Employee List
+`/edit/:id`	             Edit Employee Details
+
+# 🔍 Search, Filter & Sort Logic
+
+### 🔎 Search
+
+Search is implemented using Array.filter() and checks:
+
+Employee Name
+
+Email
+
+Department
+
+### 🎯 Filter
+
+Employees can be filtered by:
+
+All
+
+Active
+
+Inactive
+
+### 🔃 Sort
+
+Sorting options include:
+
+Name (A → Z)
+
+Name (Z → A)
+
+Salary (Low → High)
+
+Salary (High → Low)
 
 
 # 🔄 Application Flow
@@ -192,17 +257,17 @@ Code is structured for easy understanding and scalability.
 
 # 📸 Screens Included 
 
-### Home Page
+### Search
 
- ![homepage](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project07-Navigator/src/assets/screenshot/homepage.png)
+ ![search]()
 
-### Add Employee Form
+### Filter
 
-![addemployee](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project07-Navigator/src/assets/screenshot/addemp.png)
+![filter]()
 
-### Employee List Table
+### Sort
 
-![employeelist](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project07-Navigator/src/assets/screenshot/emplist.png)
+![sort]()
 
 # 👨‍💻 Author
 
