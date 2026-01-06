@@ -1,16 +1,154 @@
-# React + Vite
+# 🧑‍💼 Employee Management System (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Employee Management System built using React.js, React Router DOM, Tailwind CSS, and LocalStorage.
+This project allows users to add, view, edit, and delete employee records with a clean UI and smooth navigation.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Add new employee details
 
-## React Compiler
+👁️ View all employees in a structured table
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✏️ Edit existing employee information
 
-## Expanding the ESLint configuration
+🗑️ Delete employee records
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🖼️ Upload & display employee profile image
+
+💾 Data persistence using LocalStorage
+
+🎨 Modern UI using Tailwind CSS
+
+🔀 Page navigation using React Router DOM
+
+# 🛠️ Technologies Used
+
+```
+React.js
+
+React Router DOM
+
+Tailwind CSS
+
+JavaScript (ES6)
+
+HTML5
+
+LocalStorage
+```
+
+# 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   └── Navbar.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── AddEmployee.jsx
+│   ├── EditEmployee.jsx
+│   └── ViewEmployee.jsx
+│
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+
+# 🔄 Application Flow
+
+### Home Page
+
+Displays employee overview in card format.
+
+### Add Employee
+
+Form to add employee details such as name, email, phone, department, designation, salary, status, and image.
+
+### View Employee
+
+Displays all employees in a table with full details.
+
+Provides Edit and Delete actions.
+
+### Edit Employee
+
+Allows updating existing employee information.
+
+Pre-fills data using route parameter (id).
+
+# 💾 LocalStorage Usage
+
+All employee data is stored in the browser’s LocalStorage.
+
+Data remains available even after page refresh.
+
+### Example key used:
+
+Employees
+
+# 🎨 UI Highlights
+
+Responsive table layout
+
+Status badge (Active / Inactive)
+
+Rounded profile images
+
+Hover effects for better UX
+
+Clean form layout with validation-ready inputs
+
+# ▶️ How to Run the Project
+
+Clone the repository
+
+```
+git clone <repository-url>
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Start the development server
+
+```
+npm run dev
+```
+
+Open in browser
+
+```
+http://localhost:5173
+```
+
+# 📌 Notes
+
+This project uses LocalStorage, so no backend is required.
+
+Best suited for learning CRUD operations, React Hooks, and Routing.
+
+Code is structured for easy understanding and scalability.
+
+# 📸 Screens Included 
+
+Home Page
+
+Add Employee Form
+
+Employee List Table
+
+Edit Employee Page
+
+# 👨‍💻 Author
+
+Jinal Jain
+
+Full Stack Developer (React)
+
+Project created for learning and academic purposes.
