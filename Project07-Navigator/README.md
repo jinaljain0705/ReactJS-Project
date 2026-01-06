@@ -192,13 +192,17 @@ Code is structured for easy understanding and scalability.
 
 # 📸 Screens Included 
 
-Home Page
+### Home Page
 
-Add Employee Form
+ ![homepage]()
 
-Employee List Table
+### Add Employee Form
 
-Edit Employee Page
+![addemployee]()
+
+### Employee List Table
+
+![employeelist]()
 
 # 👨‍💻 Author
 
