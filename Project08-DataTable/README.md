@@ -260,15 +260,15 @@ Code is structured for easy understanding and scalability.
 
 ### Search
 
- ![search]()
+ ![search](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project08-DataTable/src/assets/screenshot/search.png)
 
 ### Filter
 
-![filter]()
+![filter](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project08-DataTable/src/assets/screenshot/status.png)
 
 ### Sort
 
-![sort]()
+![sort](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project08-DataTable/src/assets/screenshot/sort.png)
 
 # 👨‍💻 Author
 
