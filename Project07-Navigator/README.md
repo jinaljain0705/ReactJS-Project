@@ -202,7 +202,7 @@ Code is structured for easy understanding and scalability.
 
 ### Employee List Table
 
-![employeelist]()
+![employeelist](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project07-Navigator/src/assets/screenshot/emplist.png)
 
 # 👨‍💻 Author
 
