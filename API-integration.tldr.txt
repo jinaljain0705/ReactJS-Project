@@ -1,0 +1,20 @@
+
+API- integration
+
+// Types of API
+
+// 1. Rest API
+-  user Http method (GET, POST, PUT, DELETE)
+
+// 2. GraphQl API
+- Query Language for API's - request exactly what you need
+
+// 3. WebSocket API 
+- Use for real time application, bididireactional communication
+
+// JSON Server
+  // setup
+
+npm install i -g json-server (global)
+npm install i json-server (local)
+
