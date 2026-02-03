@@ -225,7 +225,7 @@ http://localhost:5173
 
 # Screenshot
 
-![taskManagerApp]()
+![taskManagerApp](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project09-Redux-Builder/src/assets/Screenshot/taskManagerApp.png)
 
 # 📌 Notes
 
