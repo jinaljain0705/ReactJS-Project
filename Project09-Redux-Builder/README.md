@@ -166,26 +166,66 @@ Edit-in-place functionality
 
 # ▶️ How to Run the Project
 
-### 1️⃣ Clone the repository
+### 1️⃣Clone the repository
 
+```
 git clone <repository-url>
+```
 
+### 2️⃣Install dependencies
 
-### 2️⃣ Install dependencies
-
+```
 npm install
+```
 
+### 3️⃣ Install Tailwind CSS (Vite Plugin Method)
 
-### 5️⃣ Start the development server
+```
+npm install tailwindcss @tailwindcss/vite
+```
 
+Configure Vite Plugin (`vite.config.js`)
+
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+});
+```
+
+Import Tailwind CSS (`src/index.css`)
+
+```
+@import "tailwindcss";
+```
+
+Import CSS in Entry File (`main.jsx`)
+
+```
+import './index.css';
+```
+
+### 4️⃣Start the development server
+
+```
 npm run dev
+```
 
-
-### Open in browser:
+Open in browser
 
 ```
 http://localhost:5173
 ```
+
+# Screenshot
+
+![taskManagerApp]()
 
 # 📌 Notes
 
