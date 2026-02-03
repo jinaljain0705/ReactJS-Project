@@ -73,21 +73,25 @@ src/
 ```
 
 # 🧭 Application Flow
-Page / Component	Description
-/	Dashboard / Task Overview
-Add Task	Form to add new task (title + priority)
-View Tasks	View all tasks in a list with status and priority
-Edit Task	Edit existing task details
-Toggle Status	Click task to mark as Pending / Completed
-Delete Task	Remove task from list
-🔍 Search, Filter & Sort Logic
-🔎 Search
+                                                                   
+| Page / Component       | Description                                       |
+|------------------------|---------------------------------------------------|
+| `/`                    | Dashboard / Overview                              |
+| `/Add Task`            | Form to add new task (title + priority)           |
+| `/View Tasks`          | View all tasks in a list with status and priority |
+| `/Edit Task`           | Edit existing task details                        |
+| `/Toggle Status`	     | Click task to mark as Pending / Completed         |
+| `/Delete Task	`        | Remove task from list                             |
+
+  
+# 🔍 Search, Filter & Sort Logic
+### 🔎 Search
 
 Search is implemented using Array.filter() and checks:
 
 Task Title
 
-🎯 Filter
+### 🎯 Filter
 
 Tasks can be filtered by:
 
@@ -95,7 +99,7 @@ Pending
 
 Completed
 
-🔃 Sort
+### 🔃 Sort
 
 Sorting options include:
 
@@ -103,12 +107,12 @@ Priority (Low → High)
 
 Priority (High → Low)
 
-🔄 Application Flow
-🏠 Home Page
+# 🔄 Application Flow
+### 🏠 Home Page
 
 Displays all tasks in a list format with priority and status badges.
 
-➕ Add Task
+### ➕ Add Task
 
 Form to add task details:
 
@@ -118,7 +122,7 @@ Priority (Low / Medium / High)
 
 Status defaults to Pending
 
-👁️ View Tasks
+### 👁️ View Tasks
 
 Displays all tasks with:
 
@@ -130,21 +134,25 @@ Status (Pending / Completed)
 
 Edit and Delete actions
 
-✏️ Edit Task
+### ✏️ Edit Task
 
 Allows updating task title and priority.
+
 Form auto-fills task data for editing.
 
-💾 LocalStorage Usage
+### 💾 LocalStorage Usage
 
 All task data is stored in the browser’s LocalStorage.
+
 Data remains available after page refresh.
 
 Example key used:
 
+```
 tasks
+```
 
-🎨 UI Highlights
+# 🎨 UI Highlights
 
 Responsive list layout
 
@@ -156,28 +164,30 @@ Clean form layout with validation-ready inputs
 
 Edit-in-place functionality
 
-▶️ How to Run the Project
+# ▶️ How to Run the Project
 
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 
 git clone <repository-url>
 
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 
 npm install
 
 
-5️⃣ Start the development server
+### 5️⃣ Start the development server
 
 npm run dev
 
 
-Open in browser:
+### Open in browser:
 
+```
 http://localhost:5173
+```
 
-📌 Notes
+# 📌 Notes
 
 This project uses LocalStorage, so no backend is required.
 
@@ -185,8 +195,10 @@ Best suited for learning Redux Toolkit, React Hooks, and state management.
 
 Code is structured for easy understanding and scalability.
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Jinal Jain
+
 Full Stack Developer (React)
+
 Project created for learning and academic purposes
