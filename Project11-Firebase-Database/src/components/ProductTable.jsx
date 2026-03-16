@@ -1,19 +1,16 @@
 import { useDispatch, useSelector } from "react-redux";
 import { deleteProduct } from "../app/inventorySlice";
 
-function ProductTable({ openEdit }) {
+function ProductTable() {
+  const { products } = useSelector((state) => state.inventory);
   const dispatch = useDispatch();
 
-  const products = useSelector((state) => state.inventory.products);
-
   return (
-    <table border="1">
+    <table className="w-full border">
       <thead>
         <tr>
           <th>Name</th>
-          <th>Category</th>
           <th>Price</th>
-          <th>Stock</th>
           <th>Action</th>
         </tr>
       </thead>
@@ -22,17 +19,12 @@ function ProductTable({ openEdit }) {
         {products.map((p) => (
           <tr key={p.id}>
             <td>{p.name}</td>
-            <td>{p.category}</td>
-            <td>${p.price}</td>
-
-            <td style={{ color: p.quantity < 10 ? "red" : "green" }}>
-              {p.quantity}
-            </td>
-
+            <td>{p.price}</td>
             <td>
-              <button onClick={() => openEdit(p)}>Edit</button>
-
-              <button onClick={() => dispatch(deleteProduct(p.id))}>
+              <button
+                onClick={() => dispatch(deleteProduct(p.id))}
+                className="bg-red-500 text-white px-2"
+              >
                 Delete
               </button>
             </td>

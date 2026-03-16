@@ -3,72 +3,42 @@ import { useDispatch } from "react-redux";
 import { addProduct } from "../app/inventorySlice";
 
 function ProductForm() {
+  const [name, setName] = useState("");
+  const [price, setPrice] = useState("");
+
   const dispatch = useDispatch();
 
-  const [data, setData] = useState({
-    name: "",
-    category: "",
-    price: "",
-    quantity: "",
-  });
-
-  const change = (e) => {
-    setData({
-      ...data,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const submit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     dispatch(
       addProduct({
-        ...data,
-        price: Number(data.price),
-        quantity: Number(data.quantity),
+        name,
+        price,
       }),
     );
 
-    setData({
-      name: "",
-      category: "",
-      price: "",
-      quantity: "",
-    });
+    setName("");
+    setPrice("");
   };
 
   return (
-    <form onSubmit={submit} className="space-y-3">
+    <form onSubmit={handleSubmit} className="flex gap-2 mb-4">
       <input
-        name="name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
         placeholder="Product Name"
-        onChange={change}
-        value={data.name}
+        className="border p-2"
       />
 
       <input
-        name="category"
-        placeholder="Category"
-        onChange={change}
-        value={data.category}
-      />
-
-      <input
-        name="quantity"
-        placeholder="Stock"
-        onChange={change}
-        value={data.quantity}
-      />
-
-      <input
-        name="price"
+        value={price}
+        onChange={(e) => setPrice(e.target.value)}
         placeholder="Price"
-        onChange={change}
-        value={data.price}
+        className="border p-2"
       />
 
-      <button>Add Product</button>
+      <button className="bg-blue-500 text-white px-4">Add</button>
     </form>
   );
 }
