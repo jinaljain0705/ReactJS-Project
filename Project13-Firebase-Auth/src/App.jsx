@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./components/PrivateRoute";
+import Navbar from "./components/Navbar";
 import { AuthProvider, AuthContext } from "./context/AuthContext";
 
 import "./App.css";
@@ -18,9 +19,10 @@ function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
+      <Navbar />
         <Routes>
           
-          {/* ✅ Default Route */}
+          {/* Default Route */}
           <Route path="/" element={<Home />} />
 
           {/* Auth Routes */}

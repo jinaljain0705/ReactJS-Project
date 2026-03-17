@@ -10,13 +10,8 @@ function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-
-    try {
-      await signInWithEmailAndPassword(auth, email, password);
-      navigate("/dashboard");
-    } catch (err) {
-      alert(err.message);
-    }
+    await signInWithEmailAndPassword(auth, email, password);
+    navigate("/dashboard");
   };
 
   const googleLogin = async () => {
@@ -25,33 +20,42 @@ function Login() {
   };
 
   return (
-    <div className="p-10">
-      <h2 className="text-xl mb-4">Login</h2>
+    <div className="flex justify-center items-center h-screen bg-gray-100">
 
-      <form onSubmit={handleLogin}>
-        <input
-          type="email"
-          placeholder="Email"
-          className="border p-2 mb-3 block"
-          onChange={(e) => setEmail(e.target.value)}
-        />
+      <div className="bg-white p-8 rounded-2xl shadow-lg w-96">
+        
+        <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
 
-        <input
-          type="password"
-          placeholder="Password"
-          className="border p-2 mb-3 block"
-          onChange={(e) => setPassword(e.target.value)}
-        />
+        <form onSubmit={handleLogin} className="flex flex-col gap-4">
 
-        <button className="bg-green-500 text-white px-4 py-2">Login</button>
-      </form>
+          <input
+            type="email"
+            placeholder="Email"
+            className="border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+            onChange={(e) => setEmail(e.target.value)}
+          />
 
-      <button
-        onClick={googleLogin}
-        className="bg-red-500 text-white px-4 py-2 mt-4"
-      >
-        Login with Google
-      </button>
+          <input
+            type="password"
+            placeholder="Password"
+            className="border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+            onChange={(e) => setPassword(e.target.value)}
+          />
+
+          <button className="bg-blue-500 text-white py-2 rounded hover:bg-blue-600">
+            Login
+          </button>
+        </form>
+
+        <button
+          onClick={googleLogin}
+          className="w-full mt-4 bg-red-500 text-white py-2 rounded hover:bg-red-600"
+        >
+          Continue with Google
+        </button>
+
+      </div>
+
     </div>
   );
 }

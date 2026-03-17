@@ -10,36 +10,41 @@ function Register() {
 
   const handleRegister = async (e) => {
     e.preventDefault();
-
-    try {
-      await createUserWithEmailAndPassword(auth, email, password);
-      navigate("/dashboard");
-    } catch (err) {
-      alert(err.message);
-    }
+    await createUserWithEmailAndPassword(auth, email, password);
+    navigate("/dashboard");
   };
 
   return (
-    <div className="p-10">
-      <h2 className="text-xl mb-4">Register</h2>
+    <div className="flex justify-center items-center h-screen bg-gray-100">
 
-      <form onSubmit={handleRegister}>
-        <input
-          type="email"
-          placeholder="Email"
-          className="border p-2 mb-3 block"
-          onChange={(e) => setEmail(e.target.value)}
-        />
+      <div className="bg-white p-8 rounded-2xl shadow-lg w-96">
 
-        <input
-          type="password"
-          placeholder="Password"
-          className="border p-2 mb-3 block"
-          onChange={(e) => setPassword(e.target.value)}
-        />
+        <h2 className="text-2xl font-bold mb-6 text-center">Register</h2>
 
-        <button className="bg-blue-500 text-white px-4 py-2">Register</button>
-      </form>
+        <form onSubmit={handleRegister} className="flex flex-col gap-4">
+
+          <input
+            type="email"
+            placeholder="Email"
+            className="border p-2 rounded focus:outline-none focus:ring-2 focus:ring-green-400"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+
+          <input
+            type="password"
+            placeholder="Password"
+            className="border p-2 rounded focus:outline-none focus:ring-2 focus:ring-green-400"
+            onChange={(e) => setPassword(e.target.value)}
+          />
+
+          <button className="bg-green-500 text-white py-2 rounded hover:bg-green-600">
+            Register
+          </button>
+
+        </form>
+
+      </div>
+
     </div>
   );
 }
