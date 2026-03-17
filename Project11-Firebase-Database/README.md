@@ -87,6 +87,39 @@ npm install
 npm run dev
 ```
 
+### 3️⃣ Install Tailwind CSS (Vite Plugin Method)
+
+```
+npm install tailwindcss @tailwindcss/vite
+```
+
+Configure Vite Plugin (`vite.config.js`)
+
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+
+export default defineConfig({
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+});
+```
+
+Import Tailwind CSS (`src/index.css`)
+
+```
+@import "tailwindcss";
+```
+
+Import CSS in Entry File (`main.jsx`)
+
+```
+import './index.css';
+```
+
 # 🔥 Firebase Setup
 
 Go to Firebase Console
