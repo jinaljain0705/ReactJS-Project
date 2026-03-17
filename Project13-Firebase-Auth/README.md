@@ -133,7 +133,7 @@ npm run dev
   
 * Dashboard (Protected)
 
-  ![user]()
+  ![user](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project13-Firebase-Auth/src/assets/screenshot/user-register.png)
 
 ---
 
