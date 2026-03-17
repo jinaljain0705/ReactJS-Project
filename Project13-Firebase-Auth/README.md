@@ -129,7 +129,7 @@ npm run dev
   
 * Register Page
 
-  ![register]()
+  ![register](https://github.com/jinaljain0705/ReactJS-Project/blob/main/Project13-Firebase-Auth/src/assets/screenshot/register.png)
   
 * Dashboard (Protected)
 
