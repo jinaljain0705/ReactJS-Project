@@ -1,12 +1,132 @@
-# React + Vite
+# 📦 Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Inventory Management System built using React, Redux Toolkit, Firebase, and Tailwind CSS.
+This project helps users manage products, track stock, and visualize inventory data in a clean dashboard.
 
-Currently, two official plugins are available:
+# 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Add Products
 
-## Expanding the ESLint configuration
+✏️ Update Product Details
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+❌ Delete Products
+
+📋 View Product List
+
+🔍 Search Products
+
+📊 Inventory Dashboard (Stats + Charts)
+
+🔥 Firebase Realtime Database Integration
+
+⚡ Redux Toolkit for State Management
+
+🎨 Tailwind CSS UI Design
+
+# 🛠️ Tech Stack
+
+Frontend: React.js
+
+State Management: Redux Toolkit
+
+Database: Firebase Realtime Database
+
+Styling: Tailwind CSS
+
+Build Tool: Vite
+
+# 📂 Folder Structure
+
+```
+src/
+│
+├── app/
+│   └── store.js
+│
+├── features/
+│   └── inventorySlice.js
+│
+├── components/
+│   ├── ProductForm.jsx
+│   ├── ProductList.jsx
+│   ├── ProductCard.jsx
+│   └── SearchBar.jsx
+│
+├── firebase/
+│   └── firebaseConfig.js
+│
+├── pages/
+│   └── Dashboard.jsx
+│
+└── App.jsx
+```
+
+# ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/your-username/inventory-system.git
+```
+
+### 2️⃣ Navigate to project
+
+```
+cd inventory-system
+```
+
+### 3️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 4️⃣ Start development server
+
+```
+npm run dev
+```
+
+# 🔥 Firebase Setup
+
+Go to Firebase Console
+
+Create a new project
+
+Enable Realtime Database
+
+Copy Firebase config
+
+Paste inside:
+
+```
+src/firebase/firebaseConfig.js
+```
+
+# 📊 Dashboard Metrics
+
+Total Products
+
+Total Stock
+
+Low Stock Alerts
+
+Inventory Value
+
+# 🧠 Learning Concepts Used
+
+Redux Toolkit (Slice, Store, Dispatch)
+
+Async operations with Firebase
+
+Component-based architecture
+
+State handling with forms
+
+Real-time data updates
+
+# 👨‍💻 Author
+
+Jinal Jain
+
+Full Stack Developer
