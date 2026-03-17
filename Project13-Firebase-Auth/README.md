@@ -124,8 +124,16 @@ npm run dev
 ## 📸 Screens Included
 
 * Login Page
+
+  ![login]()
+  
 * Register Page
+
+  ![register]()
+  
 * Dashboard (Protected)
+
+  ![user]()
 
 ---
 
@@ -145,7 +153,7 @@ npm run dev
 You can deploy this project using:
 
 * Vercel
-* Netlify
+* 
 * Firebase Hosting
 
 ---
@@ -153,6 +161,7 @@ You can deploy this project using:
 ## 🙌 Author
 
 **Jinal Jain**
+
 Full Stack Developer (Fresher)
 
 ---
